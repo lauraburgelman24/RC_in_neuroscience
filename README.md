@@ -1,1 +1,2 @@
-# RC_in_neuroscience
+# Exploring Reservoir Computing for Brain Function and Dysfunction
+
