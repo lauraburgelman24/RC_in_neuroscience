@@ -114,5 +114,5 @@ class ReadoutMemory(Readout):
                 score = (np.corrcoef(y_test.flatten(), y_pred)[0][1])**2
             MC_test.append(score)
             e_test.append((y_test.flatten() - y_pred)**2)
-        # return np.sum(np.array(MC_train)), np.sum(np.array(MC_test)), np.sum(np.array(e_train)), np.sum(np.array(e_test))
-        return MC_test
+        return np.sum(np.array(MC_train)), np.sum(np.array(MC_test)), np.sum(np.array(e_train)), np.sum(np.array(e_test))
+        # return MC_test
