@@ -2,7 +2,7 @@
 
 This repository contains the code necessary to repeat the experiments in the master's thesis "Exploring Reservoir Computing for Brain Function and Dysfunction". The aim of this thesis is to increase our understanding of plasticity and conduction delays through computational modelling.
 
-To achieve this, we added three functions to the Conn2res toolbox [3]: plasticity, distance-based delays, and artificial lesions. The plasticity mechanism is an adapted version of the work of Falandays <i>et al.</i> (2024) and the distance-based delays were implemented according to the code written by Iacob and Dambre (2024). It is necessary to load the Conn2res toolbox to run this code, Conn2res can be installed following the instructions on [Conn2res GitHub repository](https://github.com/netneurolab/conn2res).
+To achieve this, we added three mechanisms to the Conn2res toolbox [3]: plasticity, distance-based delays, and artificial lesions. The plasticity mechanism is an adapted version of the work of Falandays <i>et al.</i> (2024) and the distance-based delays were implemented according to the code written by Iacob and Dambre (2024). It is necessary to load the Conn2res toolbox to run this code, Conn2res can be installed following the instructions on [Conn2res GitHub repository](https://github.com/netneurolab/conn2res).
 
 The file "Plasticity_and_delay_tutorial.ipynb" provides a guide on how to implement the plasticity and delay mechanisms. The workflow remains similar to the original workflow developed by Suárez <i>et al.</i> (2024).
 
