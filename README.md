@@ -8,7 +8,7 @@ The file "Plasticity_and_delay_tutorial.ipynb" provides a guide on how to implem
 
 ### Structure
 
-This repository is structured around the objectives of the thesis. Each objective corresponds to an experiment. The folders contain all the code necessary to reproduce these experiments. The objectives are:
+This repository is structured around the objectives of the thesis. Each objective corresponds to an experiment. The folders contain all the code necessary to reproduce these experiments and a jupyter notebook that guides you through it. The objectives are:
 - Parameter study
 - Objective 1: Understanding the effect of plasticity and delays on memory capacity
 - Objective 2: Investigating the effect of specific lesions
