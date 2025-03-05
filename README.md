@@ -4,12 +4,13 @@ This repository contains the necessary code to repeat the experiments in the mas
 
 To achieve this, we added three functions to the Conn2res toolbox [3]: plasticity, distance-based delays, and artificial lesions. The plasticity mechanism is an adapted version of the work of Falandays <i>et al.</i> [1] and the distance-based delays were implemented according to the code written by Iacob and Dambre [2]. It is necessary to load the Conn2res toolbox to run this code, Conn2res can be installed following the instructions on [Conn2res GitHub repository](https://github.com/netneurolab/conn2res).
 
-### Objective 1: Understanding the effect of plasticity and delays on memory capacity
+### Structure
 
-
-### Objective 2: Investigating the effect of specific leisons
-
-### Objective 3: Assessing the clinical relevance of the model(s)
+This repository is structured around the objectives of the thesis. Each objective corresponds to an experiment. The folders contain all the code necessary to reproduce these experiments. The objectives are:
+- Parameter study
+- Objective 1: Understanding the effect of plasticity and delays on memory capacity
+- Objective 2: Investigating the effect of specific lesions
+- Objective 3: Assessing the clinical relevance of the model(s)
 
 
 ### References
